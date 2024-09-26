@@ -4,8 +4,8 @@
 
 #dashed{
 position: absolute;
-width: 371px;
-height: 465px;
+width: 351px;
+height: 445px;
 border: 2px dashed #FFFFFF;
 border-radius: 185.5px 185.5px 0px 0px;
 
@@ -13,8 +13,8 @@ border-radius: 185.5px 185.5px 0px 0px;
 
 #border{
 position: absolute;
-width: 371px;
-height: 465px;
+width: 351px;
+height: 445px;
 border: 5px solid #FFFFFF;
 border-radius: 185.5px 185.5px 0px 0px;
 
