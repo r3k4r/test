@@ -2,3 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+#dashed{
+position: absolute;
+width: 371px;
+height: 465px;
+border: 2px dashed #FFFFFF;
+border-radius: 185.5px 185.5px 0px 0px;
+
+}
+
+#border{
+position: absolute;
+width: 371px;
+height: 465px;
+border: 5px solid #FFFFFF;
+border-radius: 185.5px 185.5px 0px 0px;
+
+}
+
+#asset{
+position: absolute;
+width: 726.94px;
+height: 698.91px;
+
+opacity: 0.6;
+border: 0.5px solid #FFFFFF;
+transform: matrix(0.95, 0.32, 0.32, -0.95, 0, 0);
+
+}
