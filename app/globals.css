@@ -4,8 +4,6 @@
 
 #dashed{
 position: absolute;
-width: 351px;
-height: 445px;
 border: 2px dashed #FFFFFF;
 border-radius: 185.5px 185.5px 0px 0px;
 
@@ -13,8 +11,6 @@ border-radius: 185.5px 185.5px 0px 0px;
 
 #border{
 position: absolute;
-width: 351px;
-height: 445px;
 border: 5px solid #FFFFFF;
 border-radius: 185.5px 185.5px 0px 0px;
 
@@ -29,4 +25,70 @@ opacity: 0.6;
 border: 0.5px solid #FFFFFF;
 transform: matrix(0.95, 0.32, 0.32, -0.95, 0, 0);
 
+}
+
+.card{
+    /* Rectangle 9 */
+
+box-sizing: border-box;
+
+width: 165px;
+height: 163px;
+
+background: linear-gradient(149.28deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.14) 100%);
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.05);
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 21px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.text{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. */
+
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFF4F4;
+
+
+}
+
+.head{
+
+font-style: normal;
+font-weight: 500;
+line-height: 70px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.bg{
+    /* Rectangle 4317 */
+
+box-sizing: border-box;
+
+
+background-color: #36A5C1;
+border: 1px solid #000000;
+}
+
+.padding{
+    @apply px-8 py-10 xl:pt-[67px] xl:pr-[171px] xl:pb-[81px] xl:pl-[148px]
+}
+
+.important{
+    padding-left : 80px !important ;
 }
